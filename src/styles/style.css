@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: hwb(93 10% 9% / 0.808);
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: hwb(0 6% 94% / 0.493);
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+ul li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: hwb(93 10% 9% / 0.808);
+    border-radius: 5px;
+    border: 1px solid hwb(0 6% 94% / 0.493);
+}
